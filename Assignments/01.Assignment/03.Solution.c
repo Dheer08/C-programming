@@ -1,12 +1,14 @@
-#include <stdio.h>
-#include <math.h>
+#include<stdio.h>
 void main()
 {
-	int a=30,b=20;
-	printf("Enter a value : %d\n",a);
-	printf("Enter b value : %d\n",b);
-	a = a+b;
-	b = a-b;
-	a = a-b;
-	printf("a : %d,b : %d\n",a,b);
+    int a,b;
+    printf("Enter a value : ");
+    scanf("%d",&a);
+    printf("Enter b value : ");
+    scanf("%d",&b);
+    a = a + b;
+    b = a - b;
+    a = a - b;
+    printf("After Swapping\n");
+    printf("a : %d,b : %d\n",a,b);
 }
